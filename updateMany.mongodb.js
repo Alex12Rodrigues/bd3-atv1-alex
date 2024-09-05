@@ -9,9 +9,9 @@ use(database);
 
 /* ALTERA OS DADOS DE TODOS OS DOCUMENTO DA COLLECTION */
 db[collection].updateMany(
-    {CPF: ""},
+    { email: "@konoha" },
 
-    {$set: {email: ""}}
+    { $set: {} }
 
 );
 

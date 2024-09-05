@@ -10,7 +10,7 @@ use (database);
 /*SELECIONA TODOS REGISTROS NA COLEÇÃO DE DADOS: */
 db[collection].find(
     
-    {"data_nascimento":/2002/i},
+    {"email":/@konoha/i},
     {"_id": 0, "cod_aluno": 0}
 
 

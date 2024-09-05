@@ -5,13 +5,11 @@ const database = "BD3-NoSQL-AtlasMongoDB"
 const collection = "bd3-nosql-atv1"
 
 /* CRIAR OU ACESSAR O BANCO DE DADOS: */
-use (database);
+use(database);
+
 /* ALTERA OS DADOS DE UM ÚNICO DOCUMENTO DA COLLECTION */
 db[collection].updateOne(
-    {CPF: "123.456.789-00"},
+    { cod_aluno: "10" },
 
-    {$set: {email: "joao.silva2@email.com"}}
-
+    { $set: { nome: "Beatriz Mendes Ribeiro", CPF: "666.999.696-69", RG: "66.555.333-9" } }
 );
-
-
