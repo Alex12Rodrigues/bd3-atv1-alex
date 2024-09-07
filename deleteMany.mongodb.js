@@ -9,6 +9,6 @@ use (database);
 
 db[collection].deleteMany(
 
-    // {CPF:""}
+    // {data_nascimento:}
 
 )

@@ -9,7 +9,7 @@ use (database);
 
 db[collection].deleteOne(
 
-    // {CPF:""}
+    {CPF:"222.333.444-55"}
 
 
 

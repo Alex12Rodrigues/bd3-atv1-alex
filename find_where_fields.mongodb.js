@@ -11,7 +11,7 @@ use (database);
 db[collection].find(
     
     {"CPF": "123.456.789-00"},
-    {"_id": 0, "cod_aluno": 0}
+    {"cod_aluno": 0}
 
 
 );
